@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>Carbon Tiptoe</Title>
+    <link rel="icon" href="favicon-32x32.png" type="image/png" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/f8306250ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="custom-color" id="name"><img src="favicon-32x32.png" alt="company logo"> Carbon Tiptoe </div>
+
+        <div class="navBar">
+            <div><i class="fa-solid fa-calculator"></i> Calculate</div>
+            <div><i class="fa-solid fa-circle-info"></i> More Info</div>
+            <div><i class="fa-solid fa-earth-americas"></i> About Us</div>
+            <div><i class="fa-solid fa-phone"></i> Contact Us</div>
+        </div>
+
+        <div class="custom-color" id="trigger-modal" onclick="showModal()"><i class="fa-solid fa-user"></i> Log In / Register</div>
+    </div>
+
+    <div id="modal">
+        <div class="custom-color" id="modalContent">
+            <span id="close" onclick="closeModal()">&times;</span>
+            <div id="ct-form">
+                <form>
+                    <div id="userDetails">
+                        <div class="modalTitle"><i class="fa-solid fa-user"></i> User Details</div> 
+                        <div>Given Name: <input type="text"></div>
+                        <div>Surname: <input type="text"></div>
+                        <div>Username: <input type="text"></div>
+                        <div>Password: <input type="text"></div>
+                    </div>
+                    <div id="addresses">
+                        <div class="modalTitle"><i class="fa-solid fa-house-user"></i> Addresses</div> 
+                        <div>Home Address: <input type="text"></div>
+                        <div>Work Address: <input type="text"></div>
+                    </div>
+                    <div id="contacts">
+                        <div class="modalTitle"><i class="fa-solid fa-address-book"></i> Contacts</div> 
+                        <div>Mobile Number: <input type="text"></div>
+                        <div>Email: <input type="text"></div>
+                    </div>
+                </form>
+            </div>
+            <div id="submit">Submit</div>
+        </div>
+    </div>
+
+    <div class="imageContainer">
+        <div id="mainImage"><img src="mesa4.jpg" alt="red mesa"></div>
+        <div id="imageText">
+            <div id="imageTitle">Change Our Future</div>
+            <div class="custom-color" id="imageSubtitle">Start By Calculating Your Carbon Footprint</div>
+        </div>
+        <div id="startButton"><i class="fa-solid fa-play"></i> Start</div>
+    </div>
+
+    <div class="mainPage">
+        <div id="cardOne"><img src="autumnForest2.jpg" alt="autumnForest">
+            <div class="cardText">
+                <div class="subTitle custom-color">Climate Change</div>
+                <div>
+                    What is climate change? Climate change refers to long-term
+                    shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human
+                    activities have been the main driver of climate change, primarily due to the burning of fossil
+                    fuels, which produces heat-trapping gases.
+                </div>
+            </div>
+        </div>
+        <div id="cardTwo"><img src="footprint1.png" alt="footprint">
+            <div class="cardText">
+                <div class="subTitle custom-color">My Footprint</div>
+                <div>
+                    What is your footprint on this earth? Find out what your carbon footprint is and how it affects our
+                    planet, and what you can do to change the impact you have.
+                </div>
+            </div>
+        </div>
+        <div id="cardThree"><img src="redpanda.jpg" alt="redPanda">
+            <div class="cardText">
+                <div class="subTitle custom-color">Our Future</div>
+                <div>
+                    What does this all mean? Our future is not only shared by all of us it is also shared with our
+                    future generations. Our children, and everyone that comes after them are affected by our actions of
+                    today!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bot">
+
+        <div id="footSel">
+            <div class="footItem">
+                <i class="fa-solid fa-envelope"></i>
+                <div>Contact</div>
+            </div>
+            <div class="footItem">
+                <i class="fa-brands fa-github"></i>
+                <div>Github</div>
+            </div>
+            <div class="footItem">
+                <i class="fa-brands fa-twitter"></i>
+                <div>Twitter</div>
+            </div>
+            <div class="footItem">
+                <i class="fa-brands fa-instagram"></i>
+                <div>Instagram</div>
+            </div>
+
+        </div>
+
+        <div class="custom-color" id="pageInfo">
+            <div>
+                <i class="fa-solid fa-code-branch"></i>
+                <div id="vers"> v1.0</div>
+            </div>
+            <div>
+                <i class="fa-solid fa-trademark"></i>
+                <div>Carbon Tipoe (CT)</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
